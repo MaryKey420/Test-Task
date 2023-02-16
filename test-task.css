@@ -512,7 +512,7 @@ figcaption {
 }
 
 /*Адаптация под iPad*/
-@media (max-width: 1024px) {
+@media (max-width: 1050px) {
   header {
     padding: 20px 80px 20px 80px;
   }
