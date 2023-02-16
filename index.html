@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="test-task.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" src="images/logo.png" alt="" />
+
+      <div class="location">
+        <img class="map-marker" src="images/map-marker.png" alt="" />
+        <div>
+          <p class="region">КЕМЕРОВО (GMT+7)</p>
+          <p>Ул. Шатурская, 4а</p>
+        </div>
+      </div>
+
+      <div class="email">
+        <div class="mes-time">
+          <img class="em" src="images/message.png" alt="" />
+          <img class="tim" src="images/time.png" alt="" />
+        </div>
+        <div>
+          <p>tdvika42@mail.ru</p>
+          <p class="open-hour">ПН-ПТ: 8:00-16:30</p>
+        </div>
+      </div>
+
+      <div class="telephone">
+        <img class="phone" src="images/phone.png" alt="" />
+        <div class="phones">
+          <p>+7 (38464) 3-40-15</p>
+          <p>+7 (38464) 3-40-15</p>
+        </div>
+      </div>
+
+      <div class="search-lang">
+        <div class="input-search">
+          <input type="text" placeholder="Поиск" />
+          <img class="search" src="images/search.png" alt="" />
+        </div>
+        <div class="buttons">
+          <button class="rus">Rus</button>
+          <button class="en">En</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <nav class="menu" id="main-menu">
+        <button class="menu-toggle" id="toggle-menu">close</button>
+        <div class="menu-dropdown">
+          <ul class="nav-menu">
+            <li><a href="#">ГЛАВНАЯ</a></li>
+            <li><a href="#">ПРОДУКЦИЯ</a></li>
+            <li><a href="#">СОТРУДНИЧЕСТВО</a></li>
+            <li><a href="#">О НАС</a></li>
+            <li><a href="#">ВАКАНСИИ</a></li>
+            <li><a href="#">КОНТАКТЫ</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="slider">
+        <h1 class="head">
+          Минеральные удобрения <br />
+          под разные виды культур
+        </h1>
+        <button class="read-more">ПОДРОБНЕЕ</button>
+      </div>
+
+      <div class="properties">
+        <div class="props props1">
+          <p class="num">28</p>
+          <p class="prop">
+            лет успешной <br />
+            работы
+          </p>
+        </div>
+        <div class="props">
+          <p class="num">12 000+</p>
+          <p class="prop">
+            тонн продукции в <br />
+            год
+          </p>
+        </div>
+        <div class="props props1">
+          <p class="num">40+</p>
+          <p class="prop">
+            дипломов <br />
+            и наград
+          </p>
+        </div>
+        <div class="props">
+          <p class="num">2000+</p>
+          <p class="prop">
+            диллеров и оптовиков <br />
+            по РФ и СНГ
+          </p>
+        </div>
+      </div>
+
+      <div class="product">
+        <p>Продукция</p>
+        <img src="images/gold-branch.png" alt="" />
+      </div>
+
+      <div class="products">
+        <div>
+          <div class="prod"><img src="images/manure.png" alt="" /></div>
+          <figcaption>Удобрения</figcaption>
+        </div>
+
+        <div>
+          <div class="prod"><img src="images/priming.png" alt="" /></div>
+          <figcaption>Грунты</figcaption>
+        </div>
+
+        <div>
+          <div class="prod"><img src="images/washing.png" alt="" /></div>
+          <figcaption>Моющие<br />Средства</figcaption>
+        </div>
+
+        <div>
+          <div class="prod"><img src="images/chemical.png" alt="" /></div>
+          <figcaption>Сторительная<br />химия</figcaption>
+        </div>
+
+        <div>
+          <div class="prod">
+            <img src="images/prom-chemical.png" alt="" />
+          </div>
+          <figcaption>Промышленная<br />химия</figcaption>
+        </div>
+
+        <div>
+          <div class="prod"><img src="images/fire.png" alt="" /></div>
+          <figcaption>Жидкость<br />для розжига</figcaption>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      (function () {
+        var button = document.getElementById("toggle-menu");
+        button.addEventListener("click", function (event) {
+          event.preventDefault();
+          var menu = document.getElementById("main-menu");
+          menu.classList.toggle("is-open");
+        });
+      })();
+    </script>
+  </body>
+</html>
