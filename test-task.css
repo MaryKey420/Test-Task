@@ -706,7 +706,7 @@ figcaption {
 
 /*всплывающее меню*/
 
-@media (min-width: 1024px) {
+@media (min-width: 1050px) {
   .menu-toggle {
     display: none;
   }
