@@ -876,4 +876,26 @@ figcaption {
     top: -16px;
     left: 0.1em;
   }
+
+  .menu-dropdown {
+    right: 242px;
+    top: 15px;
+    margin: 0;
+  }
+}
+@media (max-width: 390px) {
+  .email,
+  .search-lang {
+    margin-left: -25px;
+  }
+
+  .products {
+    grid-gap: 0.5em;
+  }
+
+  .menu-dropdown {
+    right: 205px;
+    top: 15px;
+    margin: 0;
+  }
 }
