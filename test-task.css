@@ -16,6 +16,7 @@
   line-height: 0.3em;
   overflow: hidden;
   text-indent: 5em;
+  color: #161513;
 }
 
 .menu-toggle::after {
@@ -201,6 +202,7 @@ input::placeholder {
   border-radius: 5px;
   box-sizing: border-box;
   font-size: 18px;
+  color: #161513;
 }
 
 nav ul {
@@ -764,9 +766,9 @@ figcaption {
   .menu-toggle {
     position: absolute;
     top: -57px;
-    left: 16em;
+    left: 15.7em;
     font-size: 2.3em;
-    max-width: 35px;
+    max-width: 30px;
     color: #161513;
   }
 }
@@ -801,9 +803,9 @@ figcaption {
   .menu-toggle {
     position: absolute;
     top: -55px;
-    left: 12.7em;
+    left: 12.3em;
     font-size: 2.15em;
-    max-width: 35px;
+    max-width: 30px;
     color: #161513;
   }
 }
@@ -967,6 +969,7 @@ figcaption {
     position: absolute;
     top: -16px;
     left: 0.1em;
+    color: #161513;
   }
 
   .menu-dropdown {
@@ -989,5 +992,9 @@ figcaption {
     right: 205px;
     top: 15px;
     margin: 0;
+  }
+
+  .menu-toggle {
+    color: #161513;
   }
 }
