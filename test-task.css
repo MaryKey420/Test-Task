@@ -600,7 +600,7 @@ figcaption {
 /*Адаптация под iPad*/
 @media (max-width: 1050px) {
   header {
-    padding: 20px 80px 20px 80px;
+    padding: 20px 80px 20px 110px;
   }
 
   .slider {
@@ -770,7 +770,7 @@ figcaption {
   .menu-toggle {
     position: absolute;
     top: -57px;
-    left: 15.7em;
+    left: 15.2em;
     font-size: 2.2em;
     max-width: 20px;
     color: #161513;
