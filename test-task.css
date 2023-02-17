@@ -57,6 +57,10 @@ p {
   margin: 0;
 }
 
+button {
+  color: #161513;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -767,8 +771,8 @@ figcaption {
     position: absolute;
     top: -57px;
     left: 15.7em;
-    font-size: 2.3em;
-    max-width: 30px;
+    font-size: 2.2em;
+    max-width: 20px;
     color: #161513;
   }
 }
@@ -804,8 +808,8 @@ figcaption {
     position: absolute;
     top: -55px;
     left: 12.3em;
-    font-size: 2.15em;
-    max-width: 30px;
+    font-size: 2.1em;
+    max-width: 20px;
     color: #161513;
   }
 }
